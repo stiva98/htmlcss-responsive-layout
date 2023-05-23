@@ -22,6 +22,9 @@
 .color-card-2 {
     background-color: var(--third-color);
 }
+.color-card-3 {
+    background-color: var(--fourth-color);
+}
 .color-text {
     color: var(--first-color);
 }

@@ -40,9 +40,18 @@ body {
     flex-wrap: wrap;
     margin: 0 -0.625rem;
 }
+.cards-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
 .card {
     width: calc(100% - 1.25rem);
     margin: 0 0.625rem 1.25rem;
+}
+.card-2 {
+    width: calc(100% - 1.25rem);
+    margin: 0 0.625rem 1.25rem;
+    background-color: white;
 }
 .card > .color-card {
     padding: .625rem;

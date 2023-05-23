@@ -48,7 +48,7 @@ RESPONSIVE
     .card {
         width: calc((100% / 3) - 1.25rem);
     }
-    .card:first-child {
+    .card:first-child{
         width: calc(((100% / 3) *2 ) - 1.25rem);
     }
     .card-testimony {
@@ -60,7 +60,9 @@ RESPONSIVE
     .card-right-testimony {
         width: 70%;
     }
-    
+    .card-2 {
+        width: calc((100% / 2) - 1.25rem)
+    }
 }
 
 /*PC DA 922PX IN POI*/
@@ -89,5 +91,8 @@ RESPONSIVE
     .card-container-2 > div {
         width: 50%;
     }
-
+    .card-2 {
+        width: calc((100% / 3) - 1.25rem)
+    }
 }
+
