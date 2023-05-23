@@ -8,6 +8,18 @@
 main section {
     padding: 2.5rem 0;
 }
+.card-left {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+}
+
+.color-bg-3 {
+    margin: 0 1.25rem;
+    padding: 1.25rem;
+    text-align: center;
+}
 
 
 
@@ -61,4 +73,11 @@ RESPONSIVE
     .card-container > div {
         width: 50%;
     }
+    .card-container-2 {
+        display: flex;
+    }
+    .card-container-2 > div {
+        width: 50%;
+    }
+
 }

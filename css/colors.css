@@ -10,8 +10,11 @@
 .color-bg {
     background-color: var(--first-color) ;
 }
-.color-bg-2t {
+.color-bg-2 {
     background-color: var(--third-color);
+}
+.color-bg-3 {
+    background-color: var(--fourth-color);
 }
 .color-card {
     background-color: var(--second-color);
