@@ -1,0 +1,26 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.flex-contenent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.flex-contenent .nav-container {
+    display: none;
+}
+.flex-contenent .nav-container ul {
+    display: flex;
+    list-style: none;
+}
+.flex-contenent .nav-container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "general.css";
+@import "colors.css";
+
+.container {
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+RESPONSIVE
+*/
+
+@media screen and (min-width:992px) {
+    
+    /*HEADER*/
+
+    .flex-contenent .nav-container {
+        display: block;
+    }
+    .flex-contenent .hamburger-container {
+        display: none;
+    }
+}
