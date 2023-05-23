@@ -6,6 +6,11 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
+.container-2 {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+}
 
 /*HEADER*/
 
@@ -44,4 +49,14 @@ body {
 }
 .color-card-2 > .card-container > div {
     padding: 0 1.25rem;
+}
+.color-bg-2 {
+    margin: 1.25rem 0;
+}
+.text {
+    text-align: center;
+    padding: .625rem;
+}
+.card-right-testimony {
+    padding: .625rem;
 }

@@ -51,6 +51,16 @@ RESPONSIVE
     .card:first-child {
         width: calc(((100% / 3) *2 ) - 1.25rem);
     }
+    .card-testimony {
+        display: flex;
+    }
+    .card-left-testimony {
+        width: 30%;
+    }
+    .card-right-testimony {
+        width: 70%;
+    }
+    
 }
 
 /*PC DA 922PX IN POI*/
