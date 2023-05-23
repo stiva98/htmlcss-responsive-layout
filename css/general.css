@@ -11,7 +11,16 @@ body {
     max-width: 992px;
     margin: 0 auto;
 }
-
+.container-footer-top {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.container-footer-bottom {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
 /*HEADER*/
 
 .flex-contenent {
@@ -59,7 +68,7 @@ body {
 .color-card-2 > .card-container > div {
     padding: 0 1.25rem;
 }
-.color-bg-2 {
+.margin-bg-2 {
     margin: 1.25rem 0;
 }
 .text {
@@ -68,4 +77,26 @@ body {
 }
 .card-right-testimony {
     padding: .625rem;
+}
+/*
+FOOTER
+*/
+.padding-footer {
+    padding: 2.5rem 1.25rem;
+}
+.padding-footer h2{
+    margin: 1.875rem 0;
+}
+.padding-footer h4{
+    margin-bottom: 1.25rem;
+}
+.padding-footer div a{
+    margin: 1.875rem 0;
+    display: inline-block;
+}
+.container-footer-bottom p {
+    color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    text-align: center;
 }

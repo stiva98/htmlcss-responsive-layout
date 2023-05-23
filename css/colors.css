@@ -16,6 +16,9 @@
 .color-bg-3 {
     background-color: var(--fourth-color);
 }
+.color-bg-4 {
+    background-color: var(--fiveth-color);
+}
 .color-card {
     background-color: var(--second-color);
 }
