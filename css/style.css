@@ -5,6 +5,9 @@
 .container {
     padding: 0 20px;
 }
+main section {
+    padding: 2.5rem 0;
+}
 
 
 
@@ -23,6 +26,22 @@
 RESPONSIVE
 */
 
+/*TABLET DA 768PX IN POI*/
+@media screen and (min-width:768px) {
+    
+    /*HEADER*/
+ 
+  
+    /*MAIN*/
+    .card {
+        width: calc((100% / 3) - 1.25rem);
+    }
+    .card:first-child {
+        width: calc(((100% / 3) *2 ) - 1.25rem);
+    }
+}
+
+/*PC DA 922PX IN POI*/
 @media screen and (min-width:992px) {
     
     /*HEADER*/
@@ -32,5 +51,14 @@ RESPONSIVE
     }
     .flex-contenent .hamburger-container {
         display: none;
+    }
+
+    /*MAIN*/
+
+    .card-container {
+        display: flex;
+    }
+    .card-container > div {
+        width: 50%;
     }
 }

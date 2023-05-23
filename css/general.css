@@ -6,6 +6,9 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/*HEADER*/
+
 .flex-contenent {
     display: flex;
     justify-content: space-between;
@@ -23,4 +26,19 @@ body {
     text-decoration: none;
     color: white;
     padding: 10px;
+}
+
+/*MAIN*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.625rem;
+}
+.card {
+    width: calc(100% - 1.25rem);
+    margin: 0 0.625rem 1.25rem;
+}
+.card > .color-card {
+    padding: .625rem;
 }
