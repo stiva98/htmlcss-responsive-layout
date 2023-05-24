@@ -152,9 +152,14 @@ RESPONSIVE
     }
     .card-right-testimony {
         width: 70%;
+        text-align: left;
     }
     .card-2 {
         width: calc((100% / 2) - 1.25rem)
+    }
+    .card-right-testimony > p {
+        padding-top: 1.875rem;
+        padding-right: 1.875rem;
     }
 }
 

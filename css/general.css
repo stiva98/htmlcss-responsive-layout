@@ -76,12 +76,37 @@ body {
 .margin-bg-2 {
     margin: 1.25rem 0;
 }
+.border-container {
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+}
 .text {
     text-align: center;
     padding: .625rem;
 }
+.card-left-testimony {
+    padding: 1.25rem;
+}
+.card-left-testimony > img{
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
 .card-right-testimony {
     padding: .625rem;
+}
+.card-right-testimony > p {
+    color: white;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
+}
+.card-right-testimony > h2 {
+    color: white;
+    padding: 1.25rem 0;
 }
 /*
 FOOTER
