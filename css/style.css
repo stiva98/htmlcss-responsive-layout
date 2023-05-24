@@ -120,6 +120,18 @@ LINK A FORMA DI BOTTONI
     padding: 1.563rem 1.875rem;
     margin-top: 1.25rem;
 }
+.my-buttons-link-4 {
+    color: white;
+    background-color: var(--third-color);
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    text-decoration: none;
+    padding: .625rem 2.5rem;
+    font-size: 1.25rem;
+    display: inline-block;
+}
 
 
 

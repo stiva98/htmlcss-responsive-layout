@@ -93,6 +93,7 @@ body {
 }
 .card-left-testimony {
     padding: 1.25rem;
+    position: relative;
 }
 .card-left-testimony > img{
     width: 12.5rem;
@@ -112,6 +113,24 @@ body {
 .card-right-testimony > h2 {
     color: white;
     padding: 1.25rem 0;
+}
+#color-purple {
+    color: var(--third-color);
+    font-size: 3.125rem;
+}
+#color-purple-2 {
+    color: var(--third-color);
+    font-size: 1.25rem;
+    padding: 2.5rem 0;
+}
+#lorem{
+    color: black;
+    line-height: 2.8125rem;
+}
+#lorem-2{
+    color: black;
+    line-height: 2.8125rem;
+    padding: 2.5rem 0;
 }
 .cards-2 .card-2 h2 {
     color: var(--third-color);
