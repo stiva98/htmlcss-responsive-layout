@@ -133,7 +133,7 @@ LINK A FORMA DI BOTTONI
     border-bottom-right-radius: 1.75rem;
     text-decoration: none;
     padding: .625rem 2.5rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     display: inline-block;
 }
 #my-buttons-link-5 > a {
@@ -182,10 +182,10 @@ RESPONSIVE
         display: flex;
     }
     .card-left-testimony {
-        width: 30%;
+        width: 40%;
     }
     .card-right-testimony {
-        width: 70%;
+        width: 60%;
         text-align: left;
     }
     .card-2 {
@@ -230,6 +230,13 @@ RESPONSIVE
     }
     .card-2 {
         width: calc((100% / 3) - 1.25rem)
+    }
+    .card-left-testimony {
+        width: 30%;
+    }
+    .card-right-testimony {
+        width: 70%;
+        text-align: left;
     }
 }
 
