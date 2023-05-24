@@ -75,6 +75,14 @@ main section {
     line-height: 1.875rem;
     font-style: italic;
 }
+.text > h2 {
+    padding: 1.25rem 0;
+    color: var(--third-color);
+    font-size: 2.5rem;
+}
+.text > p {
+    font-size: 1.5625rem;
+}
 /*
 LINK A FORMA DI BOTTONI
 */
