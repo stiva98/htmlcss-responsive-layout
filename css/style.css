@@ -12,12 +12,19 @@ main section {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-bottom: 1.25rem;
-    text-align: center;
+}
+.color-bg-2 .container-2 .card-container-2 .card-left h2 {
+    color: white;
+    padding: 1.875rem 0;
+}
+.color-bg-2 .container-2 .card-container-2 .card-left p {
+    color: white;
+    line-height: 1.875rem;
 }
 
 .margin-center {
     margin: 0 1.25rem;
-    padding: 1.25rem;
+    padding: 1.25rem 3.25rem;
 }
 .text-center {
     text-align: center;
@@ -49,6 +56,25 @@ main section {
     color: var(--sixth-color);
     line-height: 1.875rem;
 }
+.card-right {
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+}
+.card-left > img {
+    width: 100%;
+}
+.card-right > img {
+    width: 100%;
+}
+.card-right > h2 {
+    padding: 1.25rem 0;
+}
+.card-right > p {
+    line-height: 1.875rem;
+    font-style: italic;
+}
 /*
 LINK A FORMA DI BOTTONI
 */
@@ -71,6 +97,14 @@ LINK A FORMA DI BOTTONI
     padding: .625rem 2.5rem;
     font-weight: bold;
     letter-spacing: .1875rem;
+}
+.my-buttons-link-3 {
+    background-color: var(--third-color);
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 1.563rem 1.875rem;
+    margin-top: 1.25rem;
 }
 
 
@@ -139,9 +173,13 @@ RESPONSIVE
     }
     .card-container-2 {
         display: flex;
+        align-items: flex-end;
     }
-    .card-container-2 > div {
-        width: 50%;
+    .card-left {
+        width: 65%;
+    }
+    .card-right {
+        width: 35%;
     }
     .card-2 {
         width: calc((100% / 3) - 1.25rem)
