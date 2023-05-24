@@ -64,6 +64,11 @@ body {
 }
 .card > .color-card {
     padding: .625rem;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    min-height: 100%;
 }
 .color-card-2 > .card-container > div {
     padding: 0 1.25rem;

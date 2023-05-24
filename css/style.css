@@ -25,7 +25,30 @@ main section {
 .logo-container > img {
     padding-top: .625rem;
 }
-
+.first-card-left {
+    line-height: 1.875rem;
+}
+.first-card-left > h2 {
+    color: var(--first-color);
+}
+.first-card-left > p {
+    padding: 1.25rem 0;
+    color: var(--sixth-color);
+}
+.first-card-right > img{
+    width: 100%;
+    padding-top: 3.75rem;
+    margin: -1.25rem 0;
+}
+.color-card > h2 {
+    color: var(--first-color);
+    text-align: center;
+    padding: 1.25rem 0;
+}
+.color-card:last-child {
+    color: var(--sixth-color);
+    line-height: 1.875rem;
+}
 /*
 LINK A FORMA DI BOTTONI
 */
@@ -37,7 +60,18 @@ LINK A FORMA DI BOTTONI
     border-bottom-left-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
 }
-
+.my-buttons-link-2 {
+    color: white;
+    background-color: var(--first-color);
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    text-decoration: none;
+    padding: .625rem 2.5rem;
+    font-weight: bold;
+    letter-spacing: .1875rem;
+}
 
 
 
