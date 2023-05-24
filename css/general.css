@@ -61,6 +61,11 @@ body {
     width: calc(100% - 1.25rem);
     margin: 0 0.625rem 1.25rem;
     background-color: white;
+    padding: 1.875rem;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
 }
 .card > .color-card {
     padding: .625rem;
@@ -107,6 +112,23 @@ body {
 .card-right-testimony > h2 {
     color: white;
     padding: 1.25rem 0;
+}
+.cards-2 .card-2 h2 {
+    color: var(--third-color);
+    font-size: 3.125rem;
+}
+.cards-2 .card-2 h3 {
+    color: var(--third-color);
+    padding: 1.25rem 0;
+}
+.cards-2 .card-2 p {
+    line-height: 1.875rem;
+    font-size: 1.125rem;
+    color: var(--sixth-color);
+    padding-bottom: 1.875rem;
+}
+.cards-2 .card-2 a {
+    background-color: var(--third-color);
 }
 /*
 FOOTER

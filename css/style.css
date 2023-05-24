@@ -83,6 +83,12 @@ main section {
 .text > p {
     font-size: 1.5625rem;
 }
+.container > h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-size: 1.875rem;
+}
 /*
 LINK A FORMA DI BOTTONI
 */
