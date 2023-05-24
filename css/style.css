@@ -15,12 +15,27 @@ main section {
     text-align: center;
 }
 
-.color-bg-3 {
+.margin-center {
     margin: 0 1.25rem;
     padding: 1.25rem;
 }
 .text-center {
     text-align: center;
+}
+.logo-container > img {
+    padding-top: .625rem;
+}
+
+/*
+LINK A FORMA DI BOTTONI
+*/
+#my-buttons-link > a {
+    color: black;
+    background-color: white;
+    border-top-left-radius: 1.75rem;
+    border-top-right-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
 }
 
 
@@ -74,6 +89,7 @@ RESPONSIVE
 
     .flex-contenent .nav-container {
         display: block;
+        padding-top: 0.625rem;
     }
     .flex-contenent .hamburger-container {
         display: none;
